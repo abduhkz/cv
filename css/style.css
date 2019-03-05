@@ -1,0 +1,44 @@
+body{
+  background-color:#E53935;
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1,6em;
+  margin: 0;
+}
+center{
+  padding: 10px;
+  font-family: Arial;
+}
+.abed table, tr, td{
+  border: 2px solid black;
+  margin: auto;
+}
+
+}
+.kotakstyle{
+  width: 90%;
+  margin: auto;
+}
+.kotak{
+  background-color: #9AA0C1;
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dashed;
+  border: 5px black solid;
+  padding: 10px;
+  margin: 10px;
+}
+.kotak h4{
+  font-size: 15px;
+  font-style: italic;
+}
+.kotak table, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+h2{
+  font-size: 19,5px;
+  font-family: sans-serif;
+}

@@ -1,32 +1,27 @@
 body{
   background-color:#263238;
-  font-family: Roboto Condensed, sans-serif;
+  font-family: Roboto Condensed;
   font-size: 16px;
   font-weight: normal;
   line-height: 1,6em;
   margin: 0;
-  padding: 10px;
+  width:1000px;
 }
 .abed table, tr, td{
   border: 2px solid black;
-  margin: auto;
-  background-color: #9AA0C1;
+  display: flexbox;
+  padding: 10px;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: 10px;
 }
 .abed p{
   font-family: Roboto;
   font-size: 13px;
 }
-.kotakstyle{
-  width: 90%;
-  margin: auto;
-}
-
 .kotak{
   background-color: #9AA0C1;
-  border-width: 3px;
   border-bottom-width: 10px;
-  border-top-style: dashed;
-  border: 5px black solid;
   padding: 10px;
   margin: 10px;
 }

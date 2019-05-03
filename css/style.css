@@ -1,34 +1,54 @@
-body{
-  background-color: #2980b9;
-  font: normal 16px Montserrat, Arial, sans-serif;
-  text-align: center;
-  color: azure;
-  width: 85%
-  margin: auto;
+.container{
+	max-width: 1080px;
+	margin: 20px auto;
+	background: #fff;
+	overflow: hidden;
+	padding: 10px;
 }
-#foto{
-  border-radius: 90%;
-  border: 10px;
-  min-width: 20%;
-  max-width: 30%;
-  float: left;
-  margin-left: 100px;
-  text-align: center;
+
+.header{
+	border: 1px solid #dedede;
+	padding: 10px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
-#header{
-  padding-top: 40px;
-  text-align: center;
-  font-size: 20px;
-  background-color: #2c3e50;
+.header img{
+  width:30%;
+  height: auto;
 }
-#hobi{
-  text-align: center;
-}
-#col{
-  float: left;
-  width: 33%;
-}
-#gambar{
-  float: left;
-  width: 128px;
+/* Main */
+	.left{
+		width: 250px;
+		border: 1px solid #dedede;
+		background: #e5e5e5;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+	.middle{
+		width: 500px;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+	.middle img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.right{
+		width: 250px;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+.footer{
+	clear: both;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
 }
